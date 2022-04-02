@@ -18,6 +18,11 @@ Install validate-object-js with npm or yarn
 Fields available are:
 ` required, type, min, max, isType, shouldBeTrue, custom`
 
+Returns object with 2 parameters:
+
+1. success - True/False (boolean)
+2. Array of errors ex. {code: 3, message: 'Email is invalid'}
+
 ### Important
 
 1. Important: keys of validation schema and keys of object should match

@@ -1,6 +1,6 @@
 {
   "name": "validate-schema-js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Validate your Javascript objects",
   "main": "index.js",
   "scripts": {
