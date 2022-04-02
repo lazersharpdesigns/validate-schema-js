@@ -4,7 +4,8 @@
   "description": "Validate your Javascript objects",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "example": "node example.js",
+    "test": "jest"
   },
   "keywords": [
     "validate",
@@ -12,5 +13,8 @@
     "javascript"
   ],
   "author": "lazersharpdesigns",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
 }
