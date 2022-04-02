@@ -3,8 +3,8 @@ const ValidateSchema = require(".");
 const data = {
   username: "",
   password: "1256!4",
-  phone: "+27812383898",
-  email: "rppieterser@gmail.com",
+  phone: "+27812367898",
+  email: "test@gmail.com",
 };
 
 const user = new ValidateSchema({
